@@ -16,13 +16,13 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: ipdrodev/hello-app:61596de
+          image: ipdrodev/hello-app:d67442a
           ports:
             - containerPort: 80
           
           env:
             - name: APP_VERSION
-              value: "61596de"
+              value: "d67442a"
 
           readinessProbe:
             httpGet:
